@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta -->
+  <title>Lighthouse BSD City | Bimbel &amp; Tutoring Centre — Math, English, Science</title>
+  <meta name="description" content="Bimbel & international tutoring centre in BSD City for K1–Lower Secondary students. Cambridge, Pearson Edexcel & IB-aligned Math, English & Science. Book a free trial class today!" />
+  <meta name="keywords" content="bimbel BSD City, bimbel BSD, tuition centre BSD City, les matematika BSD, les bahasa inggris BSD, les IPA science BSD, after school program BSD, tempat les anak BSD, Cambridge tutor Tangerang, IB tutor BSD, Pearson Edexcel tutor, international school tutoring Tangerang Selatan" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#1B2A47" />
+  <link rel="canonical" href="https://lighthousebsd.vercel.app/" />
+
+  <!-- Open Graph (WhatsApp / Facebook / Instagram link previews) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Lighthouse International Learning Center" />
+  <meta property="og:title" content="Lighthouse BSD City — Bimbel & International Tutoring Centre" />
+  <meta property="og:description" content="Trusted bimbel aligned with Cambridge, Pearson Edexcel & IB curricula. 14+ years · 500+ students · 20+ school partners. Now open in BSD City — book a free trial class!" />
+  <meta property="og:url" content="https://lighthousebsd.vercel.app/" />
+  <meta property="og:image" content="https://lighthousebsd.vercel.app/assets/lighthouse-logo-master.png" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="id_ID" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lighthouse BSD City — Bimbel & International Tutoring Centre" />
+  <meta name="twitter:description" content="Cambridge, Pearson Edexcel & IB-aligned Math, English & Science tutoring in BSD City. Book a free trial class today!" />
+  <meta name="twitter:image" content="https://lighthousebsd.vercel.app/assets/lighthouse-logo-master.png" />
+
+  <link rel="icon" type="image/png" href="assets/logo-bsd.png" />
+  <link rel="apple-touch-icon" href="assets/logo-bsd.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ============================================================
+       STRUCTURED DATA — EducationalOrganization / LocalBusiness (BSD City)
+       TODO: fill in the exact street address, postal code, and verify
+       the geo coordinates once you have the final campus location.
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Lighthouse International Learning Center — BSD City",
+    "alternateName": ["Lighthouse BSD", "Bimbel Lighthouse BSD", "Lighthouse BSD City"],
+    "foundingDate": "2010",
+    "url": "https://lighthousebsd.vercel.app/",
+    "logo": "https://lighthousebsd.vercel.app/assets/lighthouse-logo-master.png",
+    "image": "https://lighthousebsd.vercel.app/assets/lighthouse-logo-master.png",
+    "telephone": "+62-815-1335-5880",
+    "description": "International tutoring centre (bimbel) in BSD City offering Math, English and Science programs for K1 to Lower Secondary students, aligned with Cambridge, Pearson Edexcel and IB curricula.",
+    "areaServed": ["BSD City", "Serpong", "Tangerang Selatan", "Gading Serpong", "Banten"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "BSD City, Tangerang Selatan",
+      "addressRegion": "Banten",
+      "addressCountry": "ID"
+    },
+    "sameAs": ["https://instagram.com/lighthousebsd"]
+  }
+  </script>
+
+  <!-- ============================================================
+       STRUCTURED DATA — FAQ (mirrors the visible FAQ section on this
+       page exactly, per Google's rich-result requirements — keep the
+       two in sync if you edit the FAQ section below).
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How is Lighthouse different from other tutoring centres (bimbel)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unlike most centres that use a one-size-fits-all curriculum, we follow your child's exact school syllabus — Cambridge, Pearson Edexcel, or IB. We also include supplemental enrichment lessons at no extra cost for students who need extra support."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there really a free trial class?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — completely free, no payment, no commitment needed. We want your child to feel comfortable and you to feel confident before making any decision. Just reach out on WhatsApp to schedule a date and time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many students are in each class?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Currently about 6–8 students per class. This allows us to give each child meaningful, personalised attention during every session — something larger centres simply can't offer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the monthly fee?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fees vary depending on the number of sessions per week and subject(s). Please send us a WhatsApp message for a personalised quote."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAV -->
+
+  <header class="site-nav" id="site-nav">
+    <div class="nav-inner container">
+      <a href="#hero" class="nav-logo" aria-label="Lighthouse BSD — home">
+        <img src="assets/lighthouse-logo-master.png" alt="Lighthouse BSD City" class="nav-logo-img" id="nav-logo-pill" />
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#why">Why Us</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#alumni">Alumni</a>
+        <a href="#faq">FAQ</a>
+        <a href="#register" class="nav-cta">Register Interest</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 1. HERO — full-viewport GIF intro -->
+    <section class="hero" id="hero">
+
+      <!-- Semantic page heading for SEO & screen readers. Visually hidden
+           because the hero is an intentional full-viewport GIF intro —
+           the brand name/logo already appears in the nav above. -->
+      <h1 class="sr-only">Lighthouse BSD City — Bimbel &amp; International Tutoring Centre for Math, English &amp; Science</h1>
+
+      <!-- GIF fills the full hero; JS freezes it on last frame -->
+      <img src="assets/lighthouse-final-final.gif" id="hero-gif-bg" class="hero-gif-bg"
+           alt="Lighthouse BSD City — animated intro" />
+
+      <!-- Bottom gradient + CTA bar -->
+      <div class="hero-overlay" aria-hidden="false">
+        <div class="hero-ctas">
+          <a href="#trial" class="btn btn-primary">Book a Free Trial Class</a>
+          <a href="https://wa.me/6281513355880?text=Halo%2C%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20Lighthouse%20BSD%20City" class="btn btn-outline" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Us
+          </a>
+        </div>
+        <div class="hero-scroll-cue" aria-label="Scroll to explore">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </div>
+      </div>
+
+    </section><!-- /hero -->
+
+    <!-- Wave: hero navy → kpi white -->
+    <div aria-hidden="true" style="background:#1B2A47;line-height:0;overflow:hidden;">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;"><path d="M0,40 C360,80 720,0 1080,50 C1260,78 1380,20 1440,40 L1440,80 L0,80 Z" fill="#FFFFFF"/></svg>
+    </div>
+
+    <!-- 2. KPI CARDS -->
+    <section class="kpi-section">
+      <div class="container">
+        <div class="stat-row">
+          <div class="stat-card stat-card--years">
+            <div class="stat-icon">
+              <!-- Trophy / years — filled, rich -->
+              <svg viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 5H8V14a8 8 0 008 8 8 8 0 008-8V5z" opacity=".9"/>
+                <path d="M6 5H4a3 3 0 000 6h3.27A9.05 9.05 0 016 5zM26 5h-2a9.05 9.05 0 01-1.27 6H26a3 3 0 000-6z" opacity=".55"/>
+                <rect x="14" y="22" width="4" height="5" rx="1"/>
+                <rect x="9" y="27" width="14" height="2.5" rx="1.25"/>
+                <path d="M12 9.5l1.5 4.5H9l3.5-2.5L11 7l1 2.5zM20 9.5L18.5 14H23l-3.5-2.5L21 7l-1 2.5z" opacity=".3" fill="#fff"/>
+              </svg>
+            </div>
+            <div class="stat-num-wrap">
+              <span class="stat-number" data-target="14">14</span><span class="stat-suffix">+</span>
+            </div>
+            <span class="stat-label">Years of Experience</span>
+          </div>
+          <div class="stat-card stat-card--students">
+            <div class="stat-icon">
+              <!-- Graduation cap — filled -->
+              <svg viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 4L2 11l14 7 14-7-14-7z"/>
+                <path d="M8 15.5v6C8 24.4 11.6 27 16 27s8-2.6 8-5.5v-6L16 19l-8-3.5z" opacity=".85"/>
+                <rect x="27" y="11" width="2" height="8" rx="1"/>
+                <circle cx="28" cy="20" r="2"/>
+              </svg>
+            </div>
+            <div class="stat-num-wrap">
+              <span class="stat-number" data-target="500">500</span><span class="stat-suffix">+</span>
+            </div>
+            <span class="stat-label">Students Served</span>
+          </div>
+          <div class="stat-card stat-card--schools">
+            <div class="stat-icon">
+              <!-- School building — filled -->
+              <svg viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 13l13-8 13 8v16H3V13z" opacity=".2"/>
+                <path d="M5 13l11-7 11 7v16H5V13z"/>
+                <rect x="12" y="20" width="8" height="9" rx="1" fill="#fff" opacity=".9"/>
+                <rect x="6" y="15" width="5" height="5" rx="1" fill="#fff" opacity=".7"/>
+                <rect x="21" y="15" width="5" height="5" rx="1" fill="#fff" opacity=".7"/>
+                <path d="M14 4h4v5l-2-1-2 1V4z" opacity=".7"/>
+              </svg>
+            </div>
+            <div class="stat-num-wrap">
+              <span class="stat-number" data-target="20">20</span><span class="stat-suffix">+</span>
+            </div>
+            <span class="stat-label">School Partners</span>
+          </div>
+        </div><!-- /stat-row -->
+      </div><!-- /container -->
+    </section><!-- /kpi-section -->
+
+    <!-- 3. SCHOOLS WE SERVE -->
+    <section class="schools-strip" aria-label="Schools we serve">
+      <div class="schools-header container">
+        <p class="schools-label">Schools We Serve</p>
+      </div>
+      <div class="marquee-outer">
+        <div class="marquee-track">
+          <!-- First set -->
+          <div class="school-item"><img src="assets/schools/ipeka.png"         alt="Ipeka" /></div>
+          <div class="school-item"><img src="assets/schools/sph.png"           alt="Sekolah Pelita Harapan" /></div>
+          <div class="school-item"><img src="assets/schools/springfield.png"   alt="Springfield" /></div>
+          <div class="school-item"><img src="assets/schools/bbs.png"           alt="BBS Pei Min" /></div>
+          <div class="school-item"><img src="assets/schools/global-sevilla.png" alt="Global Sevilla" /></div>
+          <div class="school-item"><img src="assets/schools/ichthus.png"       alt="Ichthus School" /></div>
+          <div class="school-item"><img src="assets/schools/raffles.png"       alt="Raffles Christian School" /></div>
+          <div class="school-item"><img src="assets/schools/tunas-muda.png"    alt="Tunas Muda School" /></div>
+          <div class="school-item"><img src="assets/schools/penabur.png"       alt="BPK PENABUR" /></div>
+          <div class="school-item"><img src="assets/schools/bukit-sion.png"    alt="Bukit Sion" /></div>
+          <div class="school-item"><img src="assets/schools/acs.png"           alt="ACS" /></div>
+          <div class="school-item"><img src="assets/schools/national-high.png" alt="National High School" /></div>
+          <div class="school-item"><img src="assets/schools/saint-john.png"    alt="Saint John's Catholic School" /></div>
+          <div class="school-item"><img src="assets/schools/notre-dame.png"    alt="Sekolah Notre Dame" /></div>
+          <div class="school-item"><img src="assets/schools/sis.png"           alt="SIS South Jakarta" /></div>
+          <!-- Duplicate set for seamless loop -->
+          <div class="school-item"><img src="assets/schools/ipeka.png"         alt="Ipeka" /></div>
+          <div class="school-item"><img src="assets/schools/sph.png"           alt="Sekolah Pelita Harapan" /></div>
+          <div class="school-item"><img src="assets/schools/springfield.png"   alt="Springfield" /></div>
+          <div class="school-item"><img src="assets/schools/bbs.png"           alt="BBS Pei Min" /></div>
+          <div class="school-item"><img src="assets/schools/global-sevilla.png" alt="Global Sevilla" /></div>
+          <div class="school-item"><img src="assets/schools/ichthus.png"       alt="Ichthus School" /></div>
+          <div class="school-item"><img src="assets/schools/raffles.png"       alt="Raffles Christian School" /></div>
+          <div class="school-item"><img src="assets/schools/tunas-muda.png"    alt="Tunas Muda School" /></div>
+          <div class="school-item"><img src="assets/schools/penabur.png"       alt="BPK PENABUR" /></div>
+          <div class="school-item"><img src="assets/schools/bukit-sion.png"    alt="Bukit Sion" /></div>
+          <div class="school-item"><img src="assets/schools/acs.png"           alt="ACS" /></div>
+          <div class="school-item"><img src="assets/schools/national-high.png" alt="National High School" /></div>
+          <div class="school-item"><img src="assets/schools/saint-john.png"    alt="Saint John's Catholic School" /></div>
+          <div class="school-item"><img src="assets/schools/notre-dame.png"    alt="Sekolah Notre Dame" /></div>
+          <div class="school-item"><img src="assets/schools/sis.png"           alt="SIS South Jakarta" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave: schools white → curricula navy -->
+    <div aria-hidden="true" style="background:#FFFFFF;line-height:0;overflow:hidden;">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;"><path d="M0,30 C280,80 560,0 840,50 C1080,88 1280,15 1440,42 L1440,80 L0,80 Z" fill="#1B2A47"/></svg>
+    </div>
+
+    <!-- 4. CURRICULA WE SUPPORT -->
+    <section class="curricula-section">
+      <div class="container">
+        <p class="curricula-label">Curricula We Support</p>
+        <p class="curricula-sub">We teach directly to the programmes your child is assessed on at school.</p>
+        <div class="curricula-logos">
+          <div class="curricula-item">
+            <img src="assets/cambridge.png" alt="Cambridge Assessment International Education" />
+          </div>
+          <div class="curricula-item">
+            <img src="assets/pearson-edexcel.png" alt="Pearson Edexcel" />
+          </div>
+          <div class="curricula-item">
+            <img src="assets/ib.png" alt="International Baccalaureate" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FREE TRIAL BANNER (same navy as curricula — no wave needed) -->
+    <section class="trial-banner" id="trial">
+      <div class="container trial-inner">
+        <h2 class="trial-heading">Try your first class — free, no commitment.</h2>
+        <p class="trial-sub">Let your child experience the Lighthouse difference before you decide. One session, completely free.</p>
+        <a href="https://wa.me/6281513355880?text=Halo%2C%20saya%20ingin%20mendaftarkan%20anak%20saya%20untuk%20trial%20class%20gratis%20di%20Lighthouse%20BSD%20City" class="btn btn-cream" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Book Free Trial on WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- Wave: trial navy → subjects teal -->
+    <div aria-hidden="true" style="background:#1B2A47;line-height:0;overflow:hidden;">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;"><path d="M0,40 C240,80 480,0 720,45 C960,88 1200,10 1440,45 L1440,80 L0,80 Z" fill="#D9F3EE"/></svg>
+    </div>
+
+    <!-- 6. OUR LEARNING PROGRAMMES -->
+    <section class="subjects-section">
+      <div class="container">
+        <p class="section-eyebrow centered">What We Teach</p>
+        <h2 class="section-title centered">Our Learning Programmes</h2>
+        <div class="subjects-grid">
+
+          <div class="subject-block sb-math">
+            <div class="sb-image-wrap">
+              <img src="assets/subject-math.png" alt="Mathematics tutoring at Lighthouse bimbel BSD City, aligned with Cambridge, Pearson Edexcel and IB curricula" loading="lazy" />
+            </div>
+            <div class="sb-body">
+              <h3>Mathematics</h3>
+              <p>Number sense, algebra, and problem-solving — aligned directly to your child's school syllabus.</p>
+              <a href="#register" class="sb-btn">Register Interest</a>
+            </div>
+          </div>
+
+          <div class="subject-block sb-english">
+            <div class="sb-image-wrap">
+              <img src="assets/subject-english.png" alt="English tutoring at Lighthouse bimbel BSD City — reading, writing and comprehension for international school students" loading="lazy" />
+            </div>
+            <div class="sb-body">
+              <h3>English</h3>
+              <p>Reading comprehension, writing, and vocabulary — building confident communicators from day one.</p>
+              <a href="#register" class="sb-btn">Register Interest</a>
+            </div>
+          </div>
+
+          <div class="subject-block sb-science">
+            <div class="sb-image-wrap">
+              <img src="assets/subject-science.png" alt="Science tutoring at Lighthouse bimbel BSD City — inquiry-based learning for primary and secondary students" loading="lazy" />
+            </div>
+            <div class="sb-body">
+              <h3>Science</h3>
+              <p>Inquiry-based discovery and hands-on exploration — helping children genuinely understand the world.</p>
+              <a href="#register" class="sb-btn">Register Interest</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave: subjects teal → about white -->
+    <div class="section-wave" aria-hidden="true" style="background:#D9F3EE;line-height:0;overflow:hidden;">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;"><path d="M0,50 C300,10 600,72 900,38 C1100,14 1300,62 1440,42 L1440,80 L0,80 Z" fill="#FFFFFF"/></svg>
+    </div>
+
+    <!-- 7. ABOUT — Lighthouse Expands to BSD City -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-body">
+          <div class="about-text">
+            <h2 class="section-title">Lighthouse Expands to BSD City</h2>
+            <p class="section-text">Lighthouse International Learning Center was founded by a couple, Erik G. Widjanarko and Lanny Elham, in their humble home around 2010. Their love and passion for teaching grew from homeschooling their four children. What began as a small after-school tutoring center at home eventually developed into an officially established International Learning Center located in Permata Buana, West Jakarta. Today, Lighthouse International Learning Center PerBun serves over 500 students.</p>
+            <p class="section-text" style="margin-top:0.75rem">In light of this growth, we have decided to expand by opening a second branch in BSD City — bringing the same trusted <strong>bimbel</strong> (tutoring centre) experience families know from Permata Buana to parents and students across BSD City and Tangerang Selatan.</p>
+          </div>
+          <div class="about-photo">
+            <img src="assets/lhc-lounge.jpg" alt="Lighthouse BSD City — lounge, library and reception area" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave: about white → why gray -->
+    <div class="section-wave" aria-hidden="true" style="background:#FFFFFF;line-height:0;overflow:hidden;">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;"><path d="M0,50 C280,10 560,80 840,35 C1060,0 1280,65 1440,40 L1440,80 L0,80 Z" fill="#F7F8FA"/></svg>
+    </div>
+
+    <!-- 4. WHY LIGHTHOUSE -->
+    <section class="why" id="why">
+      <div class="container">
+        <div class="why-header">
+          <h2 class="section-title centered">Why Lighthouse BSD?</h2>
+          <p class="section-text centered">As a trusted bimbel and international tutoring centre in BSD City, we do more than help your child get better grades — we build genuine academic confidence.</p>
+        </div>
+
+        <ul class="feature-list">
+          <li class="feature-row">
+            <span class="feat-icon fi-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2"/><path d="M9 12h6M9 16h4"/></svg>
+            </span>
+            <div>
+              <strong>Aligned with Your Child's School Curriculum</strong>
+              <p>We teach Cambridge, Pearson Edexcel, and IB syllabi — fully aligned with what your child learns and is assessed on at school.</p>
+            </div>
+          </li>
+          <li class="feature-row">
+            <span class="feat-icon fi-terracotta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            </span>
+            <div>
+              <strong>Personalised Assessment from Day One</strong>
+              <p>Every student begins with a comprehensive assessment, allowing us to identify key focus areas and share clear insights with parents.</p>
+            </div>
+          </li>
+          <li class="feature-row">
+            <span class="feat-icon fi-yellow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><path d="M12 22V7M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+            </span>
+            <div>
+              <strong>Supplemental Lessons</strong>
+              <p>We provide additional enrichment lessons at no extra cost for students who need extra support, based on teacher recommendation and availability.</p>
+            </div>
+          </li>
+          <li class="feature-row">
+            <span class="feat-icon fi-navy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+            </span>
+            <div>
+              <strong>14+ Years of Proven Experience</strong>
+              <p>Lighthouse has been guiding students since 2010 across multiple campuses, with hundreds of success stories behind us.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Wave: why gray → how navy -->
+    <div class="section-wave" aria-hidden="true" style="background:#F7F8FA;line-height:0;overflow:hidden;">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;"><path d="M0,35 C300,80 600,5 900,55 C1100,85 1300,20 1440,45 L1440,80 L0,80 Z" fill="#1B2A47"/></svg>
+    </div>
+
+    <!-- 5. HOW IT WORKS -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title centered">How It Works</h2>
+        <p class="section-text centered">Getting started is easy — and completely risk-free.</p>
+
+        <ol class="steps-list">
+          <li class="step">
+            <div class="step-icon-wrap">
+              <div class="step-number">1</div>
+              <svg class="step-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            </div>
+            <div class="step-body">
+              <h3>Reach Out</h3>
+              <p>Send us a WhatsApp message or fill in the form below. We'll reply promptly.</p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step-icon-wrap">
+              <div class="step-number">2</div>
+              <svg class="step-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="step-body">
+              <h3>Free Trial Class</h3>
+              <p>Your child attends one session — no cost, no commitment. Just a feel for the environment.</p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step-icon-wrap">
+              <div class="step-number">3</div>
+              <svg class="step-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <div class="step-body">
+              <h3>Assessment &amp; Briefing</h3>
+              <p>We assess strengths and areas for growth, then discuss the next steps to take for the student.</p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step-icon-wrap">
+              <div class="step-number">4</div>
+              <svg class="step-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <div class="step-body">
+              <h3>Enroll &amp; Grow</h3>
+              <p>Join as a regular student and attend weekly classes to build consistency and achieve stronger academic results.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Wave: how navy → who gray -->
+    <div class="section-wave" aria-hidden="true" style="background:#1B2A47;line-height:0;overflow:hidden;">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;"><path d="M0,45 C240,5 480,75 720,38 C960,0 1200,70 1440,42 L1440,80 L0,80 Z" fill="#F7F8FA"/></svg>
+    </div>
+
+    <!-- 6. WHO WE TEACH -->
+    <section class="who-we-teach" id="who-we-teach">
+      <div class="container">
+        <div class="who-grid">
+          <div class="who-text">
+            <span class="section-eyebrow">For Parents in BSD</span>
+            <h2 class="section-title">Who We Teach</h2>
+            <p class="section-text">We support students from <strong>Kindergarten (K1–K2), Primary, and Lower Secondary</strong> levels attending international schools across the Tangerang area.</p>
+            <p class="section-text">Our programmes are tailored for students following globally recognised curricula, including <strong>Cambridge, Pearson Edexcel, and the International Baccalaureate (IB)</strong>.</p>
+          </div>
+          <div class="who-visual">
+            <div class="who-card wc-blue">
+              <div class="who-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <h3>K1 – Lower Secondary</h3>
+              <p>Kindergarten, Primary &amp; Lower Secondary</p>
+            </div>
+            <div class="who-card wc-terracotta">
+              <div class="who-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 17h3M17 14v6"/></svg>
+              </div>
+              <h3>Math</h3>
+              <p>Number sense to algebra foundations</p>
+            </div>
+            <div class="who-card wc-green">
+              <div class="who-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 3h7a4 4 0 014 4v14a3 3 0 00-3-3H2zM22 3h-7a4 4 0 00-4 4v14a3 3 0 013-3h8z"/></svg>
+              </div>
+              <h3>English</h3>
+              <p>Reading, writing, comprehension</p>
+            </div>
+            <div class="who-card wc-sage">
+              <div class="who-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 3h6M9 3v8l-4 8a1 1 0 001 1h12a1 1 0 001-1l-4-8V3"/><path d="M6 17h12"/></svg>
+              </div>
+              <h3>Science</h3>
+              <p>Inquiry-based learning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave: who gray → alumni white -->
+    <div class="section-wave" aria-hidden="true" style="background:#F7F8FA;line-height:0;overflow:hidden;">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;"><path d="M0,30 C320,80 640,5 960,55 C1140,82 1320,18 1440,48 L1440,80 L0,80 Z" fill="#FFFFFF"/></svg>
+    </div>
+
+    <!-- 6b. ALUMNI UNIVERSITIES -->
+    <section class="schools-strip alumni-strip" id="alumni" aria-label="Universities our alumni attend">
+      <div class="container" style="margin-bottom:1.5rem;text-align:center;">
+        <p class="section-eyebrow centered">Proven Results</p>
+        <h2 class="section-title centered">Where Our Alumni Have Gone</h2>
+        <p class="section-text centered">Lighthouse alumni are thriving — now studying at top universities in Indonesia and around the world.</p>
+      </div>
+      <div class="marquee-outer">
+        <div class="marquee-track">
+          <!-- First set -->
+          <div class="school-item"><img src="assets/universities/universitas-indonesia.svg" alt="Universitas Indonesia" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/uph.png"                  alt="Universitas Pelita Harapan (UPH)" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/uc-berkeley.png"          alt="UC Berkeley" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/ubc.png"                  alt="University of British Columbia (UBC)" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/unsw.png"                 alt="UNSW Sydney" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/melbourne.png"            alt="University of Melbourne" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/ucla.png"                 alt="UCLA" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/uc-san-diego.png"         alt="UC San Diego" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/smu.svg"                  alt="Singapore Management University (SMU)" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/loyola.svg"               alt="Loyola University Chicago" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/biola.png"                alt="Biola University" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/u-washington.svg"         alt="University of Washington" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/calvin.svg"               alt="Calvin University" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/uc-irvine.png"            alt="UC Irvine" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/wheaton.svg"              alt="Wheaton College" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/imperial-college.png"     alt="Imperial College London" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/guelph.png"               alt="University of Guelph" loading="lazy" /></div>
+          <!-- Duplicate set for seamless loop -->
+          <div class="school-item"><img src="assets/universities/universitas-indonesia.svg" alt="Universitas Indonesia" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/uph.png"                  alt="Universitas Pelita Harapan (UPH)" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/uc-berkeley.png"          alt="UC Berkeley" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/ubc.png"                  alt="University of British Columbia (UBC)" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/unsw.png"                 alt="UNSW Sydney" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/melbourne.png"            alt="University of Melbourne" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/ucla.png"                 alt="UCLA" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/uc-san-diego.png"         alt="UC San Diego" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/smu.svg"                  alt="Singapore Management University (SMU)" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/loyola.svg"               alt="Loyola University Chicago" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/biola.png"                alt="Biola University" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/u-washington.svg"         alt="University of Washington" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/calvin.svg"               alt="Calvin University" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/uc-irvine.png"            alt="UC Irvine" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/wheaton.svg"              alt="Wheaton College" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/imperial-college.png"     alt="Imperial College London" loading="lazy" /></div>
+          <div class="school-item"><img src="assets/universities/guelph.png"               alt="University of Guelph" loading="lazy" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FAQ -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="faq-header">
+          <span class="section-eyebrow">Got Questions?</span>
+          <h2 class="section-title centered">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list" id="faq-list">
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <span>How is Lighthouse different from other tutoring centres?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a" hidden>
+              <p>Unlike most centres that use a one-size-fits-all curriculum, we follow your child's <strong>exact school syllabus</strong> — Cambridge, Pearson Edexcel, or IB. We also include supplemental enrichment lessons at no extra cost for students who need extra support.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <span>Is there really a free trial class?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a" hidden>
+              <p>Yes — completely free, no payment, no commitment needed. We want your child to feel comfortable and you to feel confident before making any decision. Just reach out on WhatsApp to schedule a date and time.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <span>How many students are in each class?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a" hidden>
+              <p>Currently about <strong>6–8 students per class</strong>. This allows us to give each child meaningful, personalised attention during every session — something larger centres simply can't offer.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <span>What is the monthly fee?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a" hidden>
+              <p>Fees vary depending on the number of sessions per week and subject(s). Please <a href="https://wa.me/6281513355880?text=Halo%2C%20bisa%20info%20biaya%20Lighthouse%20BSD%20City%3F" target="_blank" rel="noopener">send us a WhatsApp message</a> for a personalised quote.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave: faq white → register gray -->
+    <div class="section-wave" aria-hidden="true" style="background:#FFFFFF;line-height:0;overflow:hidden;">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;"><path d="M0,42 C280,88 560,5 840,52 C1060,85 1280,18 1440,45 L1440,80 L0,80 Z" fill="#F7F8FA"/></svg>
+    </div>
+
+    <!-- 9. REGISTER FORM -->
+    <section class="register" id="register">
+      <div class="container">
+        <div class="register-grid">
+
+          <div class="register-text">
+            <span class="section-eyebrow">Get Started</span>
+            <h2 class="section-title">Register Your Interest</h2>
+            <p class="section-text">Leave your details and we'll reach out on WhatsApp within 24 hours. No commitment required.</p>
+
+            <div class="register-perks">
+              <div class="perk">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="#2d7a3a" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="#2d7a3a" stroke-width="1.5" stroke-linecap="round"/></svg>
+                Free trial class included
+              </div>
+              <div class="perk">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="#2d7a3a" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="#2d7a3a" stroke-width="1.5" stroke-linecap="round"/></svg>
+                No registration fee
+              </div>
+              <div class="perk">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="#2d7a3a" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="#2d7a3a" stroke-width="1.5" stroke-linecap="round"/></svg>
+                Reply within 24 hours
+              </div>
+            </div>
+
+            <p class="section-text" style="margin-top:1.5rem">Or chat right now:</p>
+            <a href="https://wa.me/6281513355880?text=Halo%2C%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20Lighthouse%20BSD%20City" class="btn btn-primary" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp Us Now
+            </a>
+          </div>
+
+          <div class="register-form-wrap">
+            <form id="lead-form" class="lead-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="parent_name">Your Name <span class="req">*</span></label>
+                  <input type="text" id="parent_name" name="parent_name" required autocomplete="name" placeholder="Ibu / Bapak…" />
+                </div>
+                <div class="form-group">
+                  <label for="whatsapp">WhatsApp Number <span class="req">*</span></label>
+                  <input type="tel" id="whatsapp" name="whatsapp" required autocomplete="tel" placeholder="+62 8xx xxxx xxxx" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="child_name">Child's Name <span class="req">*</span></label>
+                  <input type="text" id="child_name" name="child_name" required placeholder="Your child's name" />
+                </div>
+                <div class="form-group">
+                  <label for="child_grade">Child's Grade <span class="req">*</span></label>
+                  <select id="child_grade" name="child_grade" required>
+                    <option value="">Select grade…</option>
+                    <option value="K1">K1 (Kindergarten 1)</option>
+                    <option value="K2">K2 (Kindergarten 2)</option>
+                    <option value="Grade 1">Grade 1</option>
+                    <option value="Grade 2">Grade 2</option>
+                    <option value="Grade 3">Grade 3</option>
+                    <option value="Grade 4">Grade 4</option>
+                    <option value="Grade 5">Grade 5</option>
+                    <option value="Grade 6">Grade 6</option>
+                    <option value="Lower Secondary – Grade 7">Lower Secondary – Grade 7</option>
+                    <option value="Lower Secondary – Grade 8">Lower Secondary – Grade 8</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="child_school">Child's School <span class="optional">(optional)</span></label>
+                <input type="text" id="child_school" name="child_school" placeholder="e.g. Ipeka BSD, Global Jaya…" />
+              </div>
+              <div class="form-group">
+                <label>Subjects of Interest <span class="optional">(optional)</span></label>
+                <div class="checkbox-group">
+                  <label class="checkbox-label"><input type="checkbox" name="subjects" value="Math" /><span>Math</span></label>
+                  <label class="checkbox-label"><input type="checkbox" name="subjects" value="English" /><span>English</span></label>
+                  <label class="checkbox-label"><input type="checkbox" name="subjects" value="Science" /><span>Science</span></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="notes">Any questions or notes <span class="optional">(optional)</span></label>
+                <textarea id="notes" name="notes" rows="3" placeholder="e.g. preferred schedule, specific topics, anything you'd like us to know…"></textarea>
+              </div>
+              <div id="form-message" class="form-message" role="alert" aria-live="polite"></div>
+              <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">Send My Details</button>
+              <p class="form-privacy">We'll only use your details to contact you about Lighthouse BSD. No spam.</p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. FOOTER -->
+    <footer class="footer" id="contact">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="logo-pill logo-pill-footer">
+            <img src="assets/lighthouse-logo-master.png" alt="Lighthouse BSD City" class="footer-logo" />
+          </div>
+          <p class="footer-tagline">Your trusted bimbel &amp; international tutoring centre, guiding students in BSD City since 2026.</p>
+          <p class="footer-parent-brand">Part of the Lighthouse family, est. 2010.</p>
+        </div>
+        <div class="footer-contact">
+          <h3>Get in Touch</h3>
+          <ul class="contact-list">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+              <a href="https://wa.me/6281513355880" target="_blank" rel="noopener">+62 815-1335-5880</a>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              <a href="https://instagram.com/lighthousebsd" target="_blank" rel="noopener">@lighthousebsd</a>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Lighthouse International Learning Center — BSD City, Tangerang Selatan, Banten, Indonesia
+            </li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#why">Why Lighthouse</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#trial">Free Trial Class</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Lighthouse International Learning Center — BSD City. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
